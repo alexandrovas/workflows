@@ -4,7 +4,8 @@ on:
       VKCS_PASSWORD:
         required: true
 
-  jobs:
+jobs:
+  test:
     runs-on: ubuntu-latest
     permissions:
       contents: read
